@@ -39,6 +39,7 @@
 #include "sde_core_irq.h"
 #include "sde_hw_top.h"
 #include "sde_hw_qdss.h"
+#include "oplus/oplus_onscreenfingerprint.h"
 #ifdef OPLUS_BUG_STABILITY
 #include "oplus_display_private_api.h"
 #include "oplus_onscreenfingerprint.h"
