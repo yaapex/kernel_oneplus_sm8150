@@ -4263,7 +4263,6 @@ static void _sde_encoder_setup_dither(struct sde_encoder_phys *phys)
 		}
 	} else {
 //#ifdef OPLUS_BUG_STABILITY
-		if (_sde_encoder_setup_dither_for_onscreenfingerprint(phys, dither_cfg, len))
 			phys->hw_pp->ops.setup_dither(phys->hw_pp, dither_cfg, len);
 //#endif /* OPLUS_BUG_STABILITY */
 	}
