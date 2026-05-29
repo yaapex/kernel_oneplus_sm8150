@@ -621,8 +621,6 @@ struct wcd_mbhc {
 	int usbc_mode;
 	struct device_node *fsa_np;
 	struct notifier_block fsa_nb;
-        bool need_cross_conn;
-        bool use_usbc_detect;
 	struct notifier_block psy_nb;
 	struct power_supply *usb_psy;
 	struct work_struct usbc_analog_work;
